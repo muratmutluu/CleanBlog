@@ -1,0 +1,27 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "CleanBlogProject",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muratmutluu/CleanBlog.git"
+  },
+  "keywords": [
+    "blog",
+    "app",
+    "photo"
+  ],
+  "author": "Murat Mutlu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muratmutluu/CleanBlog/issues"
+  },
+  "homepage": "https://github.com/muratmutluu/CleanBlog#readme",
+  "devDependencies": {
+    "prettier": "2.6.2"
+  }
+}
