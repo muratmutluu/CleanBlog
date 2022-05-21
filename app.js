@@ -8,7 +8,7 @@ const pageController = require('./controllers/pageController')
 const app = express();
 
 // Connect DB
-mongoose.connect('mongodb://localhost/cleanblog-test-db');
+mongoose.connect('mongodb+srv://clean-blog:khWxqMEJ5Zk52RgW@cluster0.uwmpn.mongodb.net/?retryWrites=true&w=majority');
 
 // Template engine
 app.set('view engine', 'ejs');
@@ -32,7 +32,7 @@ app.get('/posts/edit/:id', pageController.getEditPage);
 
 
 
-const port = 3000;
+const port = process.env.PORT || 5000;
 
 app.listen(port, () => {
   console.log(`Sunucu ${port} portunda başlatıldı..`);
